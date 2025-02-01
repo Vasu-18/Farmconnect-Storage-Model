@@ -13,12 +13,13 @@ st.set_page_config(
 # Custom CSS styling
 st.markdown("""
     <style>
-    .main {background-color: #f5f5f5;}
-    h1 {color: #2e7d32;}
-    .stButton>button {background-color: #4CAF50; color: white;}
-    .stTextInput>div>div>input {border: 2px solid #4CAF50;}
-    .report-header {color: #1b5e20;}
-    .highlight {background-color: #e8f5e9; padding: 15px; border-radius: 10px;}
+    .main {background-color: #FFF0D1;}
+    h1 {color: #FFF0D1;}
+    .stButton>button {background-color: #664343; color: white;}
+    .stTextInput>div>div>input {border: 2px solid #664343;}
+    .report-header {color: #FFF0D1;}
+    .highlight {background-color: #FFF0D1; padding: 15px; border-radius: 10px;}
+    body {color: #FFF0D1;}
     </style>
     """, unsafe_allow_html=True)
 
