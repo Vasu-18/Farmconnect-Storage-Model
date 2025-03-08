@@ -28,7 +28,7 @@ def get_storage_report(crop_name):
     """
     
     try:
-        model = genai.GenerativeModel("gemini-pro")
+        model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(structured_prompt)
         
         # Clean and parse the response
